@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    width: 100vw;
+    height: 50px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 15px;
+}
+.left{
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+.left  h1{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.right{
+    gap: 15px;
+    align-items: center;
+    display: flex;
+}

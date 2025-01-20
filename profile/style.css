@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    color: #a05307;
+    text-shadow:  2px 2px 2px #8f4d10;
+    
+}
+h2{
+    text-align: center;
+    color: #918715;
+    text-decoration: dotted; 
+}
+body{
+    background-color: antiquewhite;
+    
+}
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+}
+p{
+    text-align: center;
+}
+
+ol{
+    line-height: 30px;
+    margin-left: 500px;
+}
+dl{
+    line-height: 30px;
+    margin-left: 500px;
+}
+dd{
+    margin-left: 120px;
+}
+footer{
+    background-color:rgb(179, 153, 119) ;
+}
