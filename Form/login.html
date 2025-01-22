@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/Form/style_login.css">
 </head>
+
 <body>
-    <h1>Login</h1>
-    <form >
-    
-    <input type="text" id="email" name="email" placeholder="📧E-Mail" required><br><br>
-    <input type="password" id="pass" name="pass" placeholder="🔑Password" required><br><br>
-    <input type="checkbox" id="remember" name="remember" value="remember">
-    <label for="remember">Remember me</label><br><br>
-    <a href="/Form/forgotpass.html">Forgot password?</a><br><br>
-    <input type="submit" id="submit" name="submit" value="Login Now" width="100px" height="100px" ><br><br>
-    Don't have an account?<a href="/Form/registration_page.html"> Register Here</a>
-    
-</form>
+    <div class="main">
+        <div class="box1">
+            <h1 class="Welcome">Welcome to website</h1>
+            <p style="padding: 30PX; margin-top: -20PX;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur culpa vero eaque assumenda
+                voluptatem harum amet perspiciatis dolor repellendus illo.
+            </p>
+
+
+        </div>
+
+        <div class="box2">
+            <h1 class="login">Log in</h1><br>
+            <input class="email" type="email" name="email" id="email" placeholder="Email"> <br>
+            <input class="password" type="password" name="password" id="password" placeholder="Password"><br>
+            <a href="/Form/forgotpass.html">Forgot password?</a><br>
+            
+            <button class="login_button">Login</button><br><br>
+            <div class="buttons">
+            <button class="Facebook"><img src="/data/facebook logo.png" alt="logo" height="30px"></button>
+            <button class="X">X</button>
+            <button class="Google"><img src="/data/google logo.png" alt="logo" height="30px"></button>
+            </div>
+            <p>Already have an account! <a href="/Form/registration_page.html">Register here.</a></p>
+        </div>
+    </div>
 </body>
+
 </html>

@@ -1,0 +1,64 @@
+body{
+    background-color: rgba(172, 79, 215, 0.329);
+   
+ }
+ div.box1{
+    height: 600px;
+    width: 500px;
+    background-color: rgb(172, 79, 215);
+    align-items: center;
+    text-align: center;
+    color: white;
+    box-shadow:1px 1px 1px 1px  rgb(172, 79, 215);
+   
+ }
+ div.box2{
+    height: 600px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(172, 79, 215);
+    text-align: center;
+    box-shadow:1px 1px 1px 1px  rgb(172, 79, 215);
+ 
+ }
+ div.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ input.register_now{
+    background-color: rgb(172, 79, 215);
+    color: white;
+    width: 250px;
+    height: 25px;
+    margin-left: px;
+    margin-top: 20px;
+    border: 0px;
+    border-radius: 5px;
+    border-color: rgba(172, 79, 215, 0.763);
+}
+input{
+
+justify-content: center;
+text-align: center;
+/* margin-left: 115px; */
+width: 250px;
+border-radius: 5px;
+height: 25px;
+border-color: rgba(172, 79, 215, 0.763);
+}
+h1.Welcome{
+    text-align: center;
+    margin-top: 190px;
+ 
+ }
+ label.tandc{
+    margin-left: -100px;
+ }
+input.tc{
+    margin-left: -100px;
+ }
+ input.dob{
+    width: 210px;
+ }

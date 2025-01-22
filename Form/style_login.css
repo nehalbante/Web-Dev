@@ -1,0 +1,100 @@
+body{
+   background-color: rgba(172, 79, 215, 0.329);
+  
+}
+div.box1{
+   height: 500px;
+   width: 500px;
+   background-color: rgb(172, 79, 215);
+   align-items: center;
+   text-align: center;
+   color: white;
+   box-shadow:1px 1px 1px 1px  rgb(172, 79, 215);
+  
+}
+div.box2{
+   height: 500px;
+   width: 500px;
+   background-color: rgb(255, 255, 255);
+   color: rgb(172, 79, 215);
+   text-align: center;
+   box-shadow:1px 1px 1px 1px  rgb(172, 79, 215);
+
+}
+div.main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+h1.Welcome{
+   text-align: center;
+   margin-top: 150px;
+
+}
+h1.login{
+   text-align: center;
+   margin-top: 50px;
+}
+input{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-left: 115px;
+   width: 250px;
+   border-radius: 5px;
+   height: 25px;
+   
+   
+   border-color:  rgba(172, 79, 215, 0.763);
+}
+a{
+   color: rgb(172, 79, 215);
+}
+input.termandcondition{
+   margin-left: 0px;
+}
+button.login_button{
+   background-color: rgb(172, 79, 215);
+   color: white;
+   width: 250px;
+   height: 25px;
+   margin-left: px;
+   margin-top: 20px;
+   border: 0px;
+   border-radius: 5px;
+}
+button.Facebook{
+   background-color: #237aec;    
+   border-radius: 30px;
+   border: 0px;
+   height: 30px;
+   width: 70px;
+   color: white;
+
+}
+button.X{
+   background-color: rgb(0, 0, 0);
+   border-radius: 30px;
+   border: 0px;
+   height: 30px;
+   width: 70px;
+   color: white;
+
+  
+}
+button.Google{
+   background-color: rgb(255, 255, 255);
+   border-radius: 30px;
+   border: 0px;
+   height: 30px;
+   width: 70px;
+   color: rgb(255, 255, 255);
+   box-shadow: 1px 1PX gray;
+}
+div.buttons{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
