@@ -1,39 +1,143 @@
-h1{
+h1 {
     text-align: center;
     color: #a05307;
-    text-shadow:  2px 2px 2px #8f4d10;
-    
+    text-shadow: 1px 1px 1px #8f4d10;
+
 }
-h2{
+
+h2 {
     text-align: center;
-    color: #918715;
-    text-decoration: dotted; 
+    color: #a05307;
+    text-decoration: dotted;
 }
-body{
+
+body {
     background-color: antiquewhite;
-    
+    color: antiquewhite;
 }
-img{
-    display:block;
+footer{
+    color:black;
+}
+
+
+img {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10%;
 }
-p{
+
+p {
     text-align: center;
 }
 
-ol{
-    line-height: 30px;
-    margin-left: 500px;
+ol {
+    /* line-height: 30px;
+    margin-left: 500px; */
 }
-dl{
-    line-height: 30px;
-    margin-left: 500px;
+
+dl {
+    /* line-height: 30px;
+    margin-left: 500px; */
 }
-dd{
+
+dd {
     margin-left: 120px;
 }
-footer{
-    background-color:rgb(179, 153, 119) ;
+
+footer {
+    background-color: rgb(179, 153, 119);
+    text-align: center;
+}
+
+div.box1 {
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid #a05307; */
+    justify-content: center;
+    border-radius: 30px;
+    background-color:#c55f3085;
+    margin: 10px;
+    box-shadow: 1px 1px 1px #8f4d10;
+}
+
+div.box2 {
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid #a05307; */
+    justify-content: center;
+    border-radius: 30px;
+    background-color:#c55f3085;
+     margin: 10px;
+}
+
+div.box3 {
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid #a05307; */
+    justify-content: center;
+    border-radius: 30px;
+    background-color:#c55f3085;
+     margin: 10px;
+     box-shadow: 1px 1px 1px #8f4d10
+    
+}
+
+div.box4 {
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid #a05307; */
+    justify-content: center;
+    border-radius: 30px;
+    background-color:#c55f3085;
+     margin: 10px;
+    
+}
+div.box1:hover{
+    height: 320px;
+    width: 320px;
+    background-color:#c55f306d;
+    box-shadow: 3px 3px 3px #8f4d10
+}
+
+div.box2:hover{
+    height: 320px;
+    width: 320px;
+    background-color:#c55f306d;
+     box-shadow: 3px 3px 3px #8f4d10
+}
+
+div.box3:hover{
+    height: 320px;
+    width: 320px;
+    background-color:#c55f306d;
+     box-shadow: 3px 3px 3px #8f4d10
+}
+
+div.box4:hover{
+    height: 320px;
+    width: 320px;
+    background-color:#c55f306d;
+     box-shadow: 3px 3px 3px #8f4d10
+}
+
+
+div.main1 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+div.main2 {
+    display: flex;
+    justify-content: center;
+   
+}
+
+a {
+    color:#a05307;
+}
+
+div.adjust {
+    margin-left: 20px;
 }

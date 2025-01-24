@@ -1,0 +1,9 @@
+div{
+    background-color: aqua;
+    padding: 100px;
+    margin: 20px;
+    border: 5px solid black;
+    border-style:double;
+    border-collapse: 5px;
+
+}
