@@ -14,6 +14,7 @@ h2 {
 body {
     background-color: antiquewhite;
     color: antiquewhite;
+    
 }
 footer{
     color:black;
@@ -140,4 +141,9 @@ a {
 
 div.adjust {
     margin-left: 20px;
+}
+
+div#header{
+    background-color: #8f4d10;
+    position: fixed;
 }
