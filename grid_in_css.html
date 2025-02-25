@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=\, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      .container {
+         height: 600px;
+         width: 600px;
+         background-color: blueviolet;
+         border: 3px solid black;
+         display: grid;
+         padding: 10px;
+         grid-template-columns: 200px 200px 200px;
+         grid-template-rows: 200px 200px 200px;
+         justify-content: space-evenly;
+         grid-template-areas: 'one one one';
+      }
+
+      .container>div {
+         background-color: aqua;
+         /* height: 100px;
+        width: 100px; */
+         border: 1px solid black;
+         padding: 10px;
+         text-align: center;
+         font-size: 20px;
+         align-content: center;
+         margin: 10px;
+
+      }
+      .one {
+         grid-area: one;
+      }
+
+      .tow {
+         grid-column-start: 1;
+         grid-column-end: 2;
+         grid-row-start: 2;
+         grid-row-end: 4;
+      }
+
+      .three {
+         grid-column-start: 2;
+         grid-column-end: 3;
+         grid-row-start: 2;
+         grid-row-end: 3;
+      }
+
+      .four {
+         grid-column-start: 3;
+         grid-column-end: 4;
+         grid-row-start: 2;
+         grid-row-end: 3;
+      }
+
+      .five {
+         grid-column-start: 2;
+         grid-column-end: 4;
+         grid-row-start: 3;
+         grid-row-end: 4;
+      }
+   </style>
+
+</head>
+
+<body>
+   <div class="container">
+      <div class="one">Header</div>
+      <div class="tow">Menu</div>
+      <div class="three">main</div>
+      <div class="four">right</div>
+      <div class="five">Footer</div>
+      <!-- <div class="six">6</div>
+   <div class="seven">7</div> -->
+   </div>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", serif;
+    box-sizing: border-box; 
+}
+body{
+    background: url(/navigation/data/landscape.png) no-repeat center center fixed;
+    background-size:cover; 
+    min-height: 100vh;
+}
+.main_box{
+    min-height: 100vh;
+}
+.sidebar_menu{
+    width: 280px;
+    height: 100vh;
+    position: fixed;
+    left: -280px;
+    background-color: black;
+    box-shadow: 3px 0 15px rgba(0, 0, 0, 0.619);
+    transform: all 0.3s ease;
+}
+.sidebar_menu.logo{
+padding: 25px 25px;
+background: rgba(0, 0, 0, 0.284);
+}
+.logo_pro{
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.menu{
+    margin-top: 35px;
+
+}
+.options{
+    margin-bottom: 8px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+}
+.options:hover{
+    background: rgba(255, 255, 255, 0.1);
+    padding-left: 35px;
+}
+.options i{
+    color: white;
+    width: 25px; 
+    margin-right: 10px; 
+}
+.options a{
+    color: white; 
+    font-size: 16px; 
+    text-decoration: none; 
+    transition: 0.3s; 
+}
+.social_media {
+    position: absolute; 
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    margin-top: 10px; 
+}
+.social_media ul {
+    display: flex; 
+    list-style: none; 
+    gap: 20px; 
+}
+.social_media ul li{
+    display: inline-block;
+}
+#check{
+    display: none;
+}
+.btn_one i {
+    color: white; 
+    font-size: 28px; 
+    position: absolute; 
+    left: 16px; 
+    top: 16px; 
+    cursor: pointer; 
+    opacity: 0.8; 
+    transition: 0.3s; 
+}
+.btn_two i {
+    color: white; 
+    font-size: 25px; 
+    position: absolute; 
+    right: 16px; 
+    top: 16px; 
+    cursor: pointer; 
+    opacity: 0.8; 
+    transition: 0.3s; 
+}
+.btn_one i:hover,
+.btn_two i:hover {
+    opacity: 1; 
+}
+#check:checked ~ .sidebar_menu {
+    left: 0; 
+}
+.fa-brands {
+    font-size: 22px; 
+}

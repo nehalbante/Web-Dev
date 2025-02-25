@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", serif;
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+}
+
+body {
+    background: url("bgimg.jpg") no-repeat center center fixed; /* Sets background image */
+    background-size: cover; /* Ensures the background image covers the entire viewport */
+    min-height: 100vh; /* Minimum height of the body to cover the full viewport height */
+}
+
+.main_box {
+    min-height: 100vh; /* Ensures the main box covers the full viewport height */
+}
+
+.sidebar_menu {
+    width: 280px; /* Width of the sidebar menu */
+    height: 100vh; /* Full height of the sidebar menu */
+    position: fixed; /* Fixes the sidebar to the left */
+    left: -280px; /* Initially hides the sidebar off-screen */
+    background: rgba(0, 0, 0, 0.85); /* Semi-transparent black background */
+    box-shadow: 3px 0 15px rgba(0, 0, 0, 0.6); /* Shadow effect for the sidebar */
+    transition: all 0.3s ease; /* Smooth transition for opening and closing */
+}
+
+.sidebar_menu .logo {
+    padding: 25px 25px; /* Padding for the logo section */
+    background: rgba(0, 0, 0, 0.3); /* Background for the logo section */
+}
+
+.sidebar_menu .logo a {
+    color: blue; /* Logo text color */
+    font-size: 28px; /* Logo text size */
+    font-weight: 500; /* Logo text weight */
+    text-decoration: none; /* Removes underline from the logo link */
+}
+
+.sidebar_menu .menu {
+    margin-top: 35px; /* Margin to separate the menu from the logo */
+}
+
+.sidebar_menu .menu ul li {
+    margin-bottom: 8px; /* Space between menu items */
+    list-style: none; /* Removes default list styling */
+    display: flex; /* Flexbox for aligning items */
+    align-items: center; /* Aligns items vertically */
+    padding: 15px 20px; /* Padding for menu items */
+}
+
+.sidebar_menu .menu ul li:hover {
+    background: rgba(255, 255, 255, 0.1); /* Background color on hover */
+    padding-left: 35px; /* Indentation effect on hover */
+}
+
+.sidebar_menu .menu ul li i {
+    color: white; /* Icon color */
+    width: 25px; /* Width for the icon */
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.sidebar_menu .menu ul li a {
+    color: white; /* Link color */
+    font-size: 16px; /* Link text size */
+    text-decoration: none; /* Removes underline from links */
+    transition: 0.3s; /* Smooth transition for hover effects */
+}
+
+.social_media {
+    position: absolute; /* Positions social media links at the bottom */
+    bottom: 20px; /* Distance from the bottom */
+    left: 50%; /* Centers the social media section */
+    transform: translateX(-50%); /* Adjusts for centering */
+    margin-top: 10px; /* Margin to separate from other elements */
+}
+
+.social_media ul {
+    display: flex; /* Flexbox for social media links */
+    list-style: none; /* Removes default list styling */
+    gap: 20px; /* Space between social media links */
+}
+
+.social_media ul li {
+    display: inline-block; /* Inline block for social media items */
+}
+
+.social_media ul li a {
+    color: white; /* Link color for social media */
+    opacity: 0.5; /* Initial opacity for social media links */
+    transition: 0.3s; /* Smooth transition for hover effects */
+}
+
+.social_media ul li a:hover {
+    opacity: 1; /* Full opacity on hover */
+}
+
+#check {
+    display: none; /* Hides the checkbox used for toggling the sidebar */
+}
+
+.btn_one i {
+    color: white; /* Color for the open button icon */
+    font-size: 28px; /* Size for the open button icon */
+    position: absolute; /* Po sitions the icon */
+    left: 16px; /* Distance from the left */
+    top: 16px; /* Distance from the top */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    opacity: 0.8; /* Initial opacity */
+    transition: 0.3s; /* Smooth transition for hover effects */
+}
+
+.btn_two i {
+    color: white; /* Color for the close button icon */
+    font-size: 25px; /* Size for the close button icon */
+    position: absolute; /* Positions the icon */
+    right: 16px; /* Distance from the right */
+    top: 16px; /* Distance from the top */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    opacity: 0.8; /* Initial opacity */
+    transition: 0.3s; /* Smooth transition for hover effects */
+}
+
+.btn_one i:hover,
+.btn_two i:hover {
+    opacity: 1; /* Full opacity on hover */
+}
+
+#check:checked ~ .sidebar_menu {
+    left: 0; /* Moves the sidebar into view when checked */
+}
+
+.fa-brands {
+    font-size: 22px; /* Size for brand icons */
+}
