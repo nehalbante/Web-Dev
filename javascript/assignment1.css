@@ -1,0 +1,26 @@
+.button1 {
+    height: 40px; 
+    width: 100px; 
+    background-color: lightblue; 
+    border: none;
+    align-self: center;
+}
+.print {
+    height: 40px; 
+    width: 200px; 
+    background-color: lightblue; 
+    align-content: center;
+    text-align: center;
+}
+.que1{
+    display: flex;
+    gap: 10px;
+}
+.equals{
+    align-self: center;
+}
+.que2{
+    display: flex;
+    gap: 10px;
+}
+
