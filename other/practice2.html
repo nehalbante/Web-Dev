@@ -1,27 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<style> 
-div {
-  width: 300px;
-  height: 100px;
-  background-color: yellow;
-  border: 1px solid black;
-}
-div:hover{
-    transform: translate(50px,100px);
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protected Text</title>
+    <style>
+        /* Disables text selection */
+        body {
+            /* user-select: none; */
+        }
+    </style>
 
-}
-</style>
 </head>
+
 <body>
+    <h1>Welcome to My Webpage</h1>
+    <p>This text cannot be copied or selected.</p>
+    <script>
+        // document.addEventListener("contextmenu", function(event) {
+        //     event.preventDefault(); // Disables right-click
+        // });
 
-<h1>The translate() Method</h1>
-<p>The translate() method moves an element from its current position:</p>
+        document.addEventListener("copy", function (event) {
+            event.preventDefault(); // Disables copying
+        });
 
-<div>
-This div elements  is moved 50 pixels to the right, and 100 pixels down from its current position.
-</div>
+        // -------------------------
 
+        document.addEventListener("copy", function (event) {
+            event.preventDefault(); // Prevent the default copy action
+            const defaultText = "Copying is disabled on this page!";
+            const clipboardData = event.clipboardData || window.clipboardData;
+            clipboardData.setData("text", defaultText);
+        });
+    </script>
 </body>
+
 </html>

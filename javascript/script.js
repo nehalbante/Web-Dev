@@ -22,3 +22,10 @@ function vote(){
     }
   document.getElementById("print1").innerHTML=msg;
 }
+
+let n=1;
+for (n=2;n<=10;n=n+2){
+
+    console.log(n);
+
+}

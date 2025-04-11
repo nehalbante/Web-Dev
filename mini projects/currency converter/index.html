@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="input-container">
+            <label for="fromCurrency">From:</label>
+            <div class="combined-input">
+                <select id="fromCurrency">
+                    <option value="INR">INR</option>
+                    <option value="USD">USD</option>
+                    <option value="JPY">JPY</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="AUD">AUD</AUD>
+                    <option value="CAD">CAD</CAD>
+                    <option value="CHF">CHF</CHF>
+                    <option value="CNY">CNY</CNY>
+                    <option value="SGD">SGD</SGD>
+                </select>
+                <input type="number" id="amount" placeholder="Enter amount">
+            </div>
+        </div>
+        <div class="output-container">
+            <label for="result">Result:</label>
+            <div class="combined-output">
+                <input type="number" id="result" placeholder="Result" readonly>
+                <select id="toCurrency">
+                    <option value="INR">INR</option>
+                    <option value="USD">USD</option>
+                    <option value="JPY">JPY</JPY>
+                    <option value="EUR">EUR</EUR>
+                    <option value="GBP">GBP</GBP>
+                    <option value="AUD">AUD</AUD>
+                    <option value="CAD">CAD</CAD>
+                    <option value="CHF">CHF</CHF>
+                    <option value="CNY">CNY</CNY>
+                    <option value="SGD">SGD</SGD>
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
