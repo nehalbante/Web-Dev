@@ -1,0 +1,115 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e293b; /* Dark Blue */
+    color: #fff;
+    animation: fadeIn 1s ease-in-out;
+}
+
+header {
+    background-color: #3498db; /* Light Blue */
+    color: #fff;
+    padding: 1em;
+    animation: slideDown 1s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 1em;
+    background-color: #3498db; /* Light Blue */
+    color: #fff;
+    animation: fadeInUp 1s ease-in-out;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #2980b9; /* Darker Blue */
+    color: #fff;
+    animation: slideUp 1s ease-in-out;
+    border-radius: 10px;
+}
+
+/* Dark Theme */
+body.dark {
+    background-color: #121212;
+    color: #fff;
+}
+
+body.dark header {
+    background-color: #1e293b;
+    color: #fff;
+}
+
+body.dark section {
+    background-color: #1e293b;
+    color: #fff;
+}
+
+body.dark footer {
+    background-color: #1e293b;
+    color: #fff;
+}
+
+/* Keyframes remain the same */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
