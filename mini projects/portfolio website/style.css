@@ -38,13 +38,20 @@ nav a {
 }
 
 main {
-    padding: 40px;
+    /* padding: 40px; */
 }
 
 .hero {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-image: url("src/background_img.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: null;
+    padding: null;
+    
 }
 
 .hero-content {
@@ -85,7 +92,8 @@ main {
 }
 
 .hero-image img {
-    width: 300px;
+    /* width: 250px;
+    height: 420px; */
 }
 
 .skills ul {

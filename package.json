@@ -1,0 +1,23 @@
+{
+  "name": "web-dev-journey",
+  "version": "1.0.0",
+  "description": "i am author \"nehal\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nehalbante/Web-Dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nehalbante/Web-Dev/issues"
+  },
+  "homepage": "https://github.com/nehalbante/Web-Dev#readme",
+  "dependencies": {
+    "expess": "^0.0.1-security"
+  }
+}

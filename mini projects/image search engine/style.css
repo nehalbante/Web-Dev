@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f0f2f5;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin: 60px auto 40px;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #1a73e8;
+}
+
+form {
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+form:hover,
+form:focus-within {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+form input {
+    height: 100%;
+    flex: 1;
+    padding: 0 25px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    color: #555;
+    background: transparent;
+    border-radius: 30px 0 0 30px;
+}
+
+form button {
+    height: 100%;
+    padding: 0 30px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    color: #fff;
+    background: #1a73e8;
+    cursor: pointer;
+    border-radius: 0 30px 30px 0;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #155ab6;
+}
+
+::placeholder {
+    color: #999;
+    font-size: 16px;
+}
+
+#show-more-btn {
+    background: #1a73e8;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 12px 24px;
+    border-radius: 30px;
+    margin: 20px auto 80px;
+    cursor: pointer;
+    display: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+#show-more-btn:hover {
+    background: #155ab6;
+    transform: translateY(-2px);
+}
+
+#search-result {
+    width: 85%;
+    margin: 80px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+#search-result img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#search-result img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
