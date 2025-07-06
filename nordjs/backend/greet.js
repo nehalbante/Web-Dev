@@ -1,8 +1,15 @@
-// greet.js
 function sayHello(name) { 
     console.log(`Hello, ${name}!`);
 }
 
-module.exports = {
-    sayHello
+function sum (a, b) {
+    return a + b;
+}
+function multiply (a, b) {
+    return a * b;
+}
+const PI = 3.14159;
+
+module.exports = { 
+    sayHello,sum,multiply,PI
 };
